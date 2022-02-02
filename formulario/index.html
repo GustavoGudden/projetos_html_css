@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>cadastro</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+   
+<div class="campo">
+  <h1 id="titulo" >cadastro do cliente</h1>
+  <p id="subtitulo">cadastre o cliente nesse formulario</p>
+</div>
+<br>
+<form>
+  <fieldset class="grupo">
+    <div class="campo">
+      <label for="nome" ><strong>nome</strong></label>
+      <input type="text" name="nome" id="nome" required>
+    </div>
+
+
+   <div class="campo">
+<label for="sobrenome"><strong>sobrenome:</strong></label>
+<input type="text" name="sobrenome" id="sobrenome" required>
+   </div>
+  </fieldset>
+
+  <div>
+<label for="email"><strong>email</strong></label>
+<input type="email" name="email" id="email" required>
+
+  </div>
+
+<div class="campo">
+
+<label>
+  <strong>
+  de qual lado da aplicaçao vc desenvolve?
+  </strong>
+</label>
+      <label>
+<input type="radio" name="dev_escolha" value = "front_end">front-end
+      </label>
+
+      <label>
+ <input type="radio" name="dev-escolha" value="back-end">back-end       
+      </label>
+
+      <label>
+      <input type="radio" name="dev_escolha" value="full_stack">full_stack
+      </label>
+
+</div>
+
+
+<div class="campo">
+<label>
+  <strong>
+  seneriodade
+  </strong>
+  </label>
+<select id="senerioridade">
+  <option selected disabled value="">selecionae</option>
+  <option>junior</option>
+  <option>pleneo</option>
+  <option>senior</option>
+</select>
+</div>
+
+<fieldset class="grupo">
+<div class="campo">
+<label>
+  <strong>
+  selecione as tecnologias que vc domina:
+  </strong>
+  </label>
+
+<input type="checkbox" id="tec1" name="tec1">
+<label for="tec1">HTML</label>
+
+<input type="checkbox" id="tec2" name="tec2">
+<label for="tec1">JAVA</label>
+
+<input type="checkbox" id="tec1" name="tec1">
+<label for="tec1">CSS</label>
+
+</div>
+</fieldset>
+
+<div class="campo">
+  <label>
+    <strong>
+    Me conte sobre vocé:
+    </strong>
+    </label>
+<textarea rows="6" style="width: 26em" name="exp" id="exp"></textarea>
+</div>
+<button type="submit" class="botao">concluido</button>
+
+  
+  </body>
+</html>

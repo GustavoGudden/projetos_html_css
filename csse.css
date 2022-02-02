@@ -1,0 +1,14 @@
+.pai{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    margin-top: 50px 
+}
+
+.filho{
+
+    height: 100px;
+    width: 100px;
+    margin-left: 30px;
+    background-color: brown;
+}

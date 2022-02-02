@@ -1,0 +1,46 @@
+body{
+
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+.cabe{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 0;
+    padding: 24px;
+    align-items: center;
+    }
+    
+    .cabe-menu{
+        display: flex;
+        gap: 32px;
+    }
+    .cabe-iten{
+        font-style: arial;
+        color: #FFF2E7;
+        font-size: 18px;
+        }
+.conteudo-sobre{
+display: flex;
+background-color: white;
+border-radius: 24px;
+margin-bottom: 48px;
+height: 800px;
+flex-direction: row;display: flex;
+background-color: white;
+border-radius: 24px;
+margin-bottom: 48px;
+height: 700px;
+flex-direction: column;
+}
+.sobre-texto{
+margin-left: 65px;
+margin-right: 65px;
+}
+.ti{
+margin-top: 25px;
+margin-left: 65px;
+}
+.mapa{
+margin: 65px;
+}
